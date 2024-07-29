@@ -1,0 +1,438 @@
+body{
+	background-image:url(../images/bg.jpg);
+	padding:0;
+	margin:0;
+	background-attachment: fixed;
+
+}
+
+nav{
+	width:100%;
+	height:270px;
+	float:left;
+	padding: 20px;
+	box-sizing:border-box;
+	background-color: rgba(0,0,0,0.8);
+}
+
+#domain-name{
+	color:white;
+	font-size: 60px;
+	padding: 0;
+	margin: 0;
+	text-align:center;
+	font-family: century gothic;
+}
+
+#menu{
+	width: 80%;
+	height: 70px;
+	margin-top: 40px;
+	box-sizing: border-box;
+
+}
+
+#nav_item{
+	width: 10%;
+	height:60px;
+	border:2px solid white;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 10px;
+	font-size: 20px;
+	font-family: century gothic;
+}
+
+
+
+a{
+	text-decoration: none;
+	color: white;
+
+}
+
+
+#home_sec{
+	width: 800px;
+	height: 600px;
+	float: right;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin-top: 35px;
+	margin-right: 35px;
+	border-radius: 15px;
+	padding: 50px;
+}
+
+#logo_bg{
+	width:250px;
+	height: 250px;
+	float: left;
+	box-sizing: border-box;
+	border:3px solid white;
+	margin-top: 30px;
+	margin-left: 255px;i
+	text-align: center;
+	padding: 20px;
+	border-radius: 13px;
+
+
+}
+
+#logo_text{
+	margin: 0;
+	padding: 0;
+	font-size: 250px;
+	color: white;
+	font-family: verdana;
+	margin-top: -55px;
+	margin-left: 8px;
+
+
+
+}
+
+#domain{
+	color: white;
+	font-family: verdana;
+	padding: 0;
+	margin:0;
+	font-size: 35px;
+	text-align: center;
+	margin-left:60px;
+
+	
+}
+
+#domain_abt{
+	color:white;
+	font-family: verdana;
+	margin-top: 30px;
+	text-align: justify;
+}
+
+/*start login page coding*/
+#login_sec{
+	width: 800px;
+	height: 600px;
+	float: right;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin-top: 35px;
+	margin-right: 35px;
+	border-radius: 15px;
+	padding: 50px;
+}
+
+
+#login_field{
+	width:700px;
+	height: 380px;
+	border: 3px solid white;
+	margin-left: 2px;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+
+legend{
+	color: white;
+	font-family: century gothic;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+#login-form{
+	color: white;
+	font-family: century gothic;
+	font-size: 22px;
+}
+
+#username{
+	width: 100%;
+	height: 40px;
+	background-color: inherit;
+	border: none;
+	border: 1px solid white;
+	margin-top: 10px;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: century gothic;
+
+}
+
+#password{
+	width: 100%;
+	height: 40px;
+	background-color: inherit;
+	border: none;
+	border: 1px solid white;
+	margin-top: 10px;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: century gothic;
+
+}
+
+
+#login{
+	width: 150px;
+	height: 45px;
+	float: right;
+	box-sizing: border-box;
+	margin-top: 50px;
+	background-color: inherit;
+	border: 1px solid white;
+	color: white;
+	font-family: century gothic;
+	font-size: 20px;
+	border-radius: 5px;
+
+}
+
+/* end login page coding*/
+
+
+/* start sing up  page coding*/
+
+#singup_sec{
+	width: 800px;
+	height: 630px;
+	float: right;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin-top: 35px;
+	margin-right: 35px;
+	border-radius: 15px;
+	padding: 30px;
+}
+
+#singup_field{
+	width:700px;
+	height: 570px;
+	border: 3px solid white;
+	margin-left: 20px;
+	margin-top: -10px;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+
+#singup-form{
+	color: white;
+	font-family: century gothic;
+	font-size: 22px;
+
+}
+
+#name{
+	width: 100%;
+	height: 40px;
+	background-color: inherit;
+	border: none;
+	border: 1px solid white;
+	margin-top: 10px;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: century gothic;
+
+}
+
+#email{
+	width: 100%;
+	height: 40px;
+	background-color: inherit;
+	border: none;
+	border: 1px solid white;
+	margin-top: 10px;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: century gothic;
+
+}
+
+#password{
+	width: 100%;
+	height: 40px;
+	background-color: inherit;
+	border: none;
+	border: 1px solid white;
+	margin-top: 10px;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: century gothic;
+
+}
+
+textarea{
+	width: 100%;
+	height: 70px;
+	background-color: inherit;
+	border: none;
+	border: 1px solid white;
+	margin-top: 10px;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: century gothic;
+
+}
+
+#singup{
+	width: 150px;
+	height: 45px;
+	float: right;
+	box-sizing: border-box;
+	margin-top: 25px;
+	background-color: inherit;
+	border: 1px solid white;
+	color: white;
+	font-family: century gothic;
+	font-size: 20px;
+	border-radius: 5px;
+
+}
+
+/* end sing up  page coding*/
+
+/* start contact  page coding*/
+
+#adrs{
+	color: white;
+	font-style: normal;
+	font-family: century gothic;
+	font-size: 20px;
+}
+
+#social{
+	color: white;
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	margin-top: 60px;
+	font-size:30px;
+	font-family: verdana;
+}
+#complain{
+	color: white;
+	font-family: century gothic;
+	margin-left: 88px;
+	font-size: 17px;
+}
+
+/*soscial media icons*/
+#icon{
+	width:60px;
+	margin:15px;
+	float: left;
+	margin-left: 47px;
+	box-sizing: border-box;
+	margin-top: 55px;
+
+}
+
+#icon:hover{
+	cursor: pointer;
+}
+
+
+/* end contact  page coding*/
+
+/* start brands  page coding*/
+
+#brands-name{
+	width: 100%;
+	height: 300px;
+	float: left;
+	box-sizing: border-box;
+	background-color: rgba(270, 270, 270, 0.8);
+}
+
+#brands-name-bg{
+	width: 80%;	
+	height: 140px;
+	float: left;
+	box-sizing: border-box;
+	margin:20px;
+	padding: 20px;
+	margin-left:10% ;
+	margin-right:10% ;
+	text-align: center;
+}
+
+#search{
+	width: 40%;
+	height: 45px;
+	float: left;
+	box-sizing: border-box;
+	border: none;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-family: century gothic;
+	font-size: 17px;
+	padding: 20px;
+	background-image: url(../images/search.png);
+	background-size:35px 35px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#brands-products{
+	width: 100%;
+	height: 1000px;
+	float: left;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* end brands  page coding*/
+
+
+
+/* start about page  page coding*/
+
+#abt-title{
+	color: white;
+	font-family: century gothic;
+	font-size: 40px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#abt-summary{
+	color: white;
+	font-family: century gothic;
+	font-size: 20px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+	text-align: justify;
+}
+/* end about page  page coding*/
+
+
